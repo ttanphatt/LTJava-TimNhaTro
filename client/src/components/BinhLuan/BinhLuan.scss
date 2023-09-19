@@ -1,0 +1,39 @@
+.form-comment {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    margin-bottom: 0;
+    li:first-child {
+      // width: 10%;
+      padding: 10px;
+      border-radius: 10%;
+    }
+    li:nth-child(2) {
+      width: 80%;
+      list-style: none;
+      padding-top: 10px;
+      text-align: justify;
+    }
+    li:nth-child(3) {
+      width: 10%;
+      list-style: none;
+      padding-top: 10px;
+      text-align: justify;
+    }
+  }
+  .comment {
+    width: 15%;
+    float: right;
+  }
+  
+  .btn_Comment {
+    padding: 5px;
+    text-decoration: none;
+    // background-color: blue;
+    color: blue;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  .form-comment li{
+    list-style: none;	
+}

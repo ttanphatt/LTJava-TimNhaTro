@@ -1,0 +1,157 @@
+body{
+    background-color: #F5F5F5;
+}
+.thtinbviet{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+.thtin-col1{
+    width: 65%;
+}
+.thtin-col1 p{
+    font-size: 20px;
+}
+.thtin-col2{
+    width: 5%;
+    background-color: #F5F5F5;
+}
+.thtin-col3{
+    width: 30%;
+    
+}
+.thtin-anh {
+    width: 100%;
+    padding: 35px;
+    background-color: #272829;
+    margin-bottom: 20px;
+}
+.thtin-anh img{
+    width: 100%;
+}
+.thtin-ndung{
+    background-color: white;
+    padding: 35px;
+}
+.bv-ten{
+    color:#E21818
+}
+.bv-3thongtin{
+    display: flex;
+    justify-content: space-between;
+}
+.bv-mota, .bv-dacdiemtin{
+    margin-bottom: 20px;
+}
+.bv-dacdiemtin th{
+    width: 40%;
+}
+.bv-dacdiemtin tr{
+    width: 60%;
+}
+.thtin-tacgia{
+    height: 320px;
+    background-color: white;
+}
+.tacgia-anh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 0;
+}
+.tacgia-anh img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+//BAIVIET1 BAIVIET2
+
+.container-bv{
+   width: 100%;
+   justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.itembv {
+    // border-bottom: 1px solid gray;
+    // border-right: 1px solid gray;
+    border: none;
+    box-shadow: 0px 3px 5px 0px #b9dcff;
+    border-radius: 10px;
+    width: 49%;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    color: black;
+
+}
+.itembv-anh{
+    width: 50%;
+    margin: auto 0;
+}
+.itembv-anh img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.itembv-thtin{
+    width: 50%;
+    padding: 0 20px;
+}
+.bv-ten{
+    color: #005555
+}
+.groupbtn{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.groupbtn button{
+    background-color: #088395;
+    border:none;
+    box-shadow: 0px 1.5px 3px 0px #091313;
+    // border: 1px solid gray;
+    border-radius: 5px;
+    transition-duration: 0.6s;
+    padding: 10px;
+}
+.luutin, .docthem{
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #146C94;
+}
+.groupbtn button:hover {
+    color: black;
+    background-color: #F1F6F9;
+    padding-right: 15px;   
+}
+.luutin:hover, .docthem:hover{
+    color: black;
+
+}
+.ChangePage{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+}
+
+//BÌNH LUẬN
+
+.thtin-binhluan{
+    background-color: white;
+}
+.chia-bl{
+    padding: 20px;
+    margin: 5px 100px;
+    border-bottom: 1px solid rgb(229, 229, 229) ;
+    border-top:1px solid rgb(229, 229, 229) ;
+}

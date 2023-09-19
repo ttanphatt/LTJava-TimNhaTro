@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.ntt_NhaTro_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.ntt.pojo.ThongBao</class>
+    <class>com.ntt.pojo.BinhLuan</class>
+    <class>com.ntt.pojo.TinTimTro</class>
+    <class>com.ntt.pojo.HinhAnh</class>
+    <class>com.ntt.pojo.NguoiDung</class>
+    <class>com.ntt.pojo.TinChoThue</class>
+    <class>com.ntt.pojo.BaiViet</class>
+    <class>com.ntt.pojo.NhaTro</class>
+    <class>com.ntt.pojo.TieuChi</class>
+    <class>com.ntt.pojo.TaiKhoan</class>
+    <class>com.ntt.pojo.PhongTro</class>
+    <class>com.ntt.pojo.LoaiBaiViet</class>
+    <class>com.ntt.pojo.LoaiTaiKhoan</class>
+    <class>com.ntt.pojo.Follow</class>
+    <class>com.ntt.pojo.TrangThaiBaiViet</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/phongtro?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="123456789"/>
+    </properties>
+  </persistence-unit>
+</persistence>

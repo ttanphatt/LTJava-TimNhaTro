@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
+
+.logout{
+    color: white;
+    text-decoration: none;
+}
+//HEADER
+.header{
+    display: flex;
+    // font-family: 'Faustina', serif;
+    background-color: #005555;
+    color: white;
+    width: 100%;
+    padding: 0 6%;
+}
+.brand{
+    width: 100%;
+}
+.nav-title{
+    width: 20%;
+    display: flex;
+}
+.nav-title div{
+    margin: auto 0;
+}
+.nav-links{
+    width: 45%;
+    justify-content: space-around;
+}
+
+.nav-user{
+    display: flex;
+    justify-content: flex-end;
+    display: flex;
+    width: 35%;
+}
+.nav-links link{
+    color: white;
+}
+.hellouser{
+    display: flex;
+}
+.links{
+
+}
+
+.header-search{
+    margin: 0 auto;
+}
+//FOOOTER
+.footer{
+    margin-top: 50px;
+    background-color: #005555;
+}
+.text-dark{
+    text-decoration: none;
+}
+//ĐĂNG NHẬP
+
+.form-dangnhap{
+    width: 50%;
+    border: 1px solid gray;
+    padding: 50px 15px;
+
+    // margin-bottom: 26.5%;
+}
+.container-dangnhap{
+    padding: 50px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+//TRANG CHỦ
+.trangchu-baiviet{
+    display: flex;
+    margin-top: 5%;
+}
+.trangchu-timkiem{
+    width: 35%;
+    border: 1px solid gray;
+}
+.trangchu-search{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
